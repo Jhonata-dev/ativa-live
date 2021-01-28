@@ -20,12 +20,14 @@
             margin: 0;
         }
 
-        .container {
-            width: 100vw;
-            height: 100vh;
+        #container {
+            overflow: hidden;
+            /* width: 100vw;
+            height: 100vh; */
+            width: 320px;
+            height: 480px;
             background-color: #8D0005;
             flex-direction: column;
-            justify-content: space-between;
         }
 
         .center {
@@ -41,12 +43,14 @@
             text-align: center;
             color: #FFA600;
             margin-bottom: 20px;
+            text-transform: uppercase;
         }
 
         .operator {
             width: 95%;
             height: 80%;
-            background-color: aliceblue;
+            background-image: url('/betronic_icon_white.svg');
+            background-repeat: no-repeat;
         }
 
         .img {
@@ -57,7 +61,7 @@
 </head>
 
 <body>
-    <div class="container center">
+    <div id="container" class="center">
         <div id="title">
             EMPRESÁRIOS DO BRASIL
         </div>
