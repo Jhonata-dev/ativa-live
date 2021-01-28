@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <title>Show Stream</title>
+    <script src="config.js" defer></script>
+    <script defer>
+        setTimeout(function () {
+            window.location = '/index.html';
+        }, 12000)
+
+    </script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #8D0005;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #title {
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            width: 85%;
+            font-size: 1.8em;
+            text-align: center;
+            color: #FFA600;
+            margin-bottom: 20px;
+        }
+
+        .operator {
+            width: 95%;
+            height: 80%;
+            background-color: aliceblue;
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container center">
+        <div id="title">
+            EMPRESÁRIOS DO BRASIL
+        </div>
+        <div class="operator">
+            <img id="cam" src="http://betroniccorporation.com:4321/cam_2.cgi" alt="" class="img">
+        </div>
+    </div>
+</body>
+
+</html>
