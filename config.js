@@ -1,6 +1,6 @@
 
-const _nameCond = "Empresários do Brasil";
-const _urlCam = "http://betroniccorporation.com:4321/cam_2.cgi";
+const _nameCond = "Portaria Betronic";
+const _urlCam = "";
 
 const exampleKey = 13;
 
