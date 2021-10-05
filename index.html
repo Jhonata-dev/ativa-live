@@ -1,97 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Space Live</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
     <script src="config.js" defer></script>
     <style>
-        body {
-            padding: 0;
-            margin: 0;
-        }
+      body {
+        padding: 0;
+        margin: 0;
+      }
 
-        .container {
-            overflow: hidden;
-            /* width: 100vw;
+      .container {
+        overflow: hidden;
+        /* width: 100vw;
             height: 100vh; */
-            width: 320px;
-            height: 480px;
-            background-color: #8D0005;
-            flex-direction: column;
-        }
+        width: 320px;
+        height: 480px;
+        background-color: #0d2484;
+        flex-direction: column;
+      }
 
-        .center {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+      .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-        #title {
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-            width: 85%;
-            font-size: 2.5em;
-            text-align: center;
-            color: #FFA600;
-            text-transform: uppercase;
-        }
+      #title {
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        width: 85%;
+        font-size: 2.5em;
+        text-align: center;
+        color: #00d9ff;
+        text-transform: uppercase;
+      }
 
-        .logo {
-            width: 50%;
-        }
+      .logo {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
 
-        .information {
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-            width: 80%;
-            text-align: center;
-            color: white;
-            font-size: 1.5em;
-        }
+      .information {
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        width: 80%;
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+      }
 
-        .whatsapp {
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            margin-bottom: 5px;
+      .whatsapp {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 5px;
+      }
 
-        }
+      .icon_whatsapp {
+        width: 30px;
+        margin-right: 15px;
+      }
 
-        .icon_whatsapp {
-            width: 30px;
-            margin-right: 15px;
-        }
+      .contact {
+        font-family: "Roboto", sans-serif;
+        flex-direction: column;
+        font-size: 1.4em;
+        color: white;
+      }
 
-        .contact {
-            font-family: 'Roboto', sans-serif;
-            flex-direction: column;
-            font-size: 1.4em;
-            color: white;
-        }
+      .ativa {
+        width: 75%;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div class="container center" style="justify-content: space-around;">
-        <div id="title" class="center">
-            PORTARIA BETRONIC
+  <body>
+    <div class="container center" style="justify-content: space-around">
+      <div id="title" class="center">PORTARIA ATIVA</div>
+      <div class="logo">
+        <img class="ativa" src="ativa-logo-VALENDO6.png" alt="" srcset="" />
+      </div>
+      <div class="information">Aperte o botão para falar com o porteiro</div>
+      <div class="contact center">
+        <div class="whatsapp">
+          <img src="iconfinder_13-whatsapp_4202050.svg" class="icon_whatsapp" />
+          (11) 94210-8650
         </div>
-        <div class="logo">
-            <img src="betronic_icon_white.svg" alt="" srcset="">
-        </div>
-        <div class="information">
-            Aperte o botão para falar com o porteiro
-        </div>
-        <div class="contact center">
-            <div class="whatsapp">
-                <img src="iconfinder_13-whatsapp_4202050.svg" class="icon_whatsapp">
-                (11) 94210-8650
-            </div>
-            (11) 3443-0461
-        </div>
+        (11) 3443-0461
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
